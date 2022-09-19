@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nabla">
         <style>
         body {
            background-image: url("https://github.com/ZhixianZhang620/page2/blob/main/WechatIMG67.jpeg?raw=true");
@@ -9,6 +10,14 @@
            background-size: contain;
            background-size: 30%;
            background-color: rgba(13, 13, 13, 0.995);
+        }
+        .header{
+            position: absolute;
+            left: 40%;
+            top: 0.5%;
+            font-family: Nabla;
+            font-size: 350%;
+            color: orange;
         }
         .column {
         float:left;
@@ -18,14 +27,11 @@
         background-color: transparent;
         opacity: 100%;
         border: 10px solid orange;
-        margin-top: 5%;
+        margin-top: 10%;
         border-radius: 40px;
         color: orange;
         margin-left: 5px;
         margin-right: 5px;
-        }
-        .row{
-        bottom: 20%;
         }
         .row:after {
         content: "";
@@ -80,32 +86,31 @@
         </style>
     </head>
     
-<body>
-    <div class="row" style = "position:relative; left:30%; top:70%;">
-        <div class="column" >
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1> 
-                    <p>Architect & Engineer</p> 
-                    <p>We love that guy</p>
-                  </div>
+    <body>
+        <h1 class="header">First Met With My AI Friend</h1>
+        <div class="row" style = "position:relative; left:28%; top:10%;">
+            <div class="column" >
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1></h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1> 
+                        <p>Architect & Engineer</p> 
+                        <p>We love that guy</p>
+                    </div>
+                    </div>
                 </div>
-              </div>
+            </div>
+            <div class="column" >
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+            </div>
+            <div class="column" >
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+            </div>
         </div>
-        <div class="column" >
-          <h2>Column 2</h2>
-          <p>Some text..</p>
-        </div>
-        <div class="column" >
-          <h2>Column 3</h2>
-          <p>Some text..</p>
-        </div>
-      </div>
-<h1></h1>
-<p></p>
-</body>
+    </body>
 </html>
